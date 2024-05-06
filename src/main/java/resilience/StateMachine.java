@@ -3,7 +3,7 @@ package resilience;
 /**
  * @author: yuanjinzhong
  * @date: 2024/4/28 17:04
- * @description:  事件触发状态转移,转移到具体状态之后,执行该状态下的业务动作,该业务动作中可能会继续发出事件
+ * @description: 事件触发状态转移, 转移到具体状态之后, 执行该状态下的业务动作, 该业务动作中可能会继续发出事件
  */
 public interface StateMachine {
 
@@ -14,9 +14,8 @@ public interface StateMachine {
 
     /**
      * 发射事件， 这个可能是状态机的核心，发出事件，通过事件去驱动状态转移
-     *
+     * <p>
      * OrderStatusEnum orderStatusEnum = orderOperaMachine.fireEvent(OrderStatusEnum.CLOSE, OrderEvent.ADMIN_CLOSE, order);
-     *
      */
     void fireEvent();
 
