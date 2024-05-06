@@ -27,7 +27,7 @@ public interface StateMachine {
      */
     void transitionToEffective();
 
-    void transitionToEXPIRED();
+    void transitionToExpired();
 
-    void transitionToTERMINATE();
+    void transitionToTerminate();
 }

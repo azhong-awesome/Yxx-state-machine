@@ -35,12 +35,12 @@ public class TradeStateMachine implements StateMachine {
     }
 
     @Override
-    public void transitionToEXPIRED() {
+    public void transitionToExpired() {
 
     }
 
     @Override
-    public void transitionToTERMINATE() {
+    public void transitionToTerminate() {
 
     }
 }
