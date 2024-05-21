@@ -6,7 +6,7 @@
 
 * https://blog.csdn.net/significantfrank/article/details/104996419
 ***
-# 用 Fluent API 设计状态机 (与chatGpt探讨)
+# 用FluentAPI设计状态机DSL
 
 当我们处理复杂的业务逻辑和流程时，状态机是一种非常常用的设计模式。然而，建立和管理状态机往往包含大量的样板代码。如何让这些代码更加简洁和直观呢？
 
