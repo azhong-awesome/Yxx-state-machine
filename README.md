@@ -18,13 +18,7 @@ builder.from("State1")
    .to("State2")
    .when(someCondition)
    .doAction(someAction)
-   .endTransition()
-   .from("State2")
-   .to("State3")
-   .when(someCondition)
-   .doAction(someAction)
-   .endTransition()
-   .build();
+   .endTransition();
 ```
 
 
